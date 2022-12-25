@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/shtaif/my-general-test-ground-project/compare/v1.0.10...v1.1.0) (2022-12-25)
+
+
+### Bug Fixes
+
+* simulated fix commit 16 ([9cc8e9d](https://github.com/shtaif/my-general-test-ground-project/commit/9cc8e9df2fcf31a0ea188727293564367bd3b105))
+
+
+### Features
+
+* simulated feat commit 1 ([b1f4c4e](https://github.com/shtaif/my-general-test-ground-project/commit/b1f4c4e04ccd4256fba8897ec1874e19aeb9ef25))
+
 ## [1.0.10](https://github.com/shtaif/my-general-test-ground-project/compare/v1.0.9...v1.0.10) (2022-12-25)
 
 
