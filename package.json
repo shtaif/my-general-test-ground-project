@@ -1,0 +1,11 @@
+{
+  "name": "my-general-test-ground-project",
+  "version": "1.0.0",
+  "description": "My general test ground project",
+  "author": "Dor Shtaif",
+  "license": "MIT",
+  "private": true,
+  "main": "./src/index.js",
+  "dependencies": {},
+  "devDependencies": {}
+}
