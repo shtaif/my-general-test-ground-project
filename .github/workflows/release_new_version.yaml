@@ -1,5 +1,9 @@
 on:
   workflow_dispatch:
+    inputs:
+      dry_run:
+        type: boolean
+        description: Whether to pass `true` or `false` to `semantic-release-actions`'s own `dry_run` input argument
 
 jobs:
   release_new_version:
@@ -16,15 +20,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         with:
-          # extra_plugins: |
-          #   @semantic-release/changelog@6.0.0
-          #   @semantic-release/git
           semantic_version: 19.0.5
           dry_run: false
           extra_plugins: |
-            @semantic-release/changelog@6.0.0
             @semantic-release/commit-analyzer
             @semantic-release/release-notes-generator
+            @semantic-release/changelog@6.0.0
+            @semantic-release/github
+            @semantic-release/npm
 
       - name: Do something when a new release published
         if: steps.semantic_release.outputs.new_release_published == 'true'
