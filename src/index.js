@@ -5,4 +5,4 @@ function myTestFunction() {
   return result;
 }
 
-// 3
+// 4
