@@ -3,7 +3,7 @@ on:
     inputs:
       dry_run:
         type: boolean
-        description: Whether to pass `true` or `false` to `semantic-release-actions`'s own `dry_run` input argument
+        description: Should perform as a dry run
 
 jobs:
   release_new_version:
