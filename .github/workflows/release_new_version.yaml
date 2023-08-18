@@ -5,7 +5,7 @@ on:
     inputs:
       dry_run:
         type: boolean
-        description: Should perform as a dry run
+        description: Perform as a dry run
 
 jobs:
   release_new_version:
