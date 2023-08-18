@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/shtaif/my-general-test-ground-project/compare/v1.1.0...v1.1.1) (2023-08-18)
+
+
+### Bug Fixes
+
+* code change ([305e7d4](https://github.com/shtaif/my-general-test-ground-project/commit/305e7d47d7c374a8826d8abe3442bea097662e23))
+
 # [1.1.0](https://github.com/shtaif/my-general-test-ground-project/compare/v1.0.10...v1.1.0) (2022-12-25)
 
 
