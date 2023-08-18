@@ -5,8 +5,8 @@ on:
     inputs:
       dry_run:
         type: boolean
-        description: Perform as a dry run
         default: false
+        description: Perform as a dry run
 
 jobs:
   release_new_version:
