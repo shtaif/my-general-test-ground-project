@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/shtaif/my-general-test-ground-project/compare/v1.1.1...v1.1.2) (2023-09-03)
+
+
+### Bug Fixes
+
+* change ([#3](https://github.com/shtaif/my-general-test-ground-project/issues/3)) ([5d07163](https://github.com/shtaif/my-general-test-ground-project/commit/5d07163cbf3f3d219849edc29bb6bc6710074a3b))
+
 ## [1.1.1](https://github.com/shtaif/my-general-test-ground-project/compare/v1.1.0...v1.1.1) (2023-08-18)
 
 
