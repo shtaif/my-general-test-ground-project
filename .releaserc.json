@@ -19,19 +19,20 @@
       {
         "preset": "conventionalcommits",
         "presetConfig": {
-        "types": [
-          { "type": "feat", "section": "Features", "hidden": false },
-          { "type": "fix", "section": "Bug Fixes", "hidden": false },
-          { "type": "perf", "section": "Performance", "hidden": false },
-          { "type": "refactor", "section": "Refactor", "hidden": false },
-          { "type": "test", "section": "Tests", "hidden": false },
-          { "type": "revert", "section": "Revert", "hidden": false },
-          { "type": "docs", "section": "Docs", "hidden": false },
-          { "type": "build", "section": "Build", "hidden": false },
-          { "type": "style", "section": "Styles", "hidden": true },
-          { "type": "ci", "section": "CI/CD", "hidden": true },
-          { "type": "chore", "section": "Chores", "hidden": true }
-        ]
+          "types": [
+            { "type": "feat", "hidden": false },
+            { "type": "fix", "hidden": false },
+            { "type": "perf", "hidden": false },
+            { "type": "refactor", "hidden": false },
+            { "type": "test", "hidden": false },
+            { "type": "revert", "hidden": false },
+            { "type": "docs", "hidden": false },
+            { "type": "build", "hidden": false },
+            { "type": "style", "hidden": true },
+            { "type": "ci", "hidden": true },
+            { "type": "chore", "hidden": true }
+          ]
+        }
       }
     ],
     ["@semantic-release/changelog", {}],
