@@ -1,10 +1,41 @@
 {
   "plugins": [
-    "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
-    "@semantic-release/changelog",
-    "@semantic-release/github",
-    "@semantic-release/npm",
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "angular",
+        "releaseRules": [
+          { "type": "docs", "release": "patch" },
+          { "type": "refactor", "release": "patch" },
+          { "type": "style", "release": "patch" }
+        ],
+        "parserOpts": {
+          "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
+        }
+      }
+    ],
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "preset": "angular",
+        "types": [
+          { "type": "feat", "hidden": false },
+          { "type": "fix", "hidden": false },
+          { "type": "perf", "hidden": false },
+          { "type": "refactor", "hidden": false },
+          { "type": "test", "hidden": false },
+          { "type": "revert", "hidden": false },
+          { "type": "docs", "hidden": false },
+          { "type": "build", "hidden": false },
+          { "type": "style", "hidden": true },
+          { "type": "ci", "hidden": true },
+          { "type": "chore", "hidden": true }
+        ]
+      }
+    ],
+    ["@semantic-release/changelog", {}],
+    ["@semantic-release/github", {}],
+    ["@semantic-release/npm", {}],
     [
       "@semantic-release/git",
       {
