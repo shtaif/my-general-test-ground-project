@@ -1,3 +1,11 @@
+## [1.1.5](https://github.com/shtaif/my-general-test-ground-project/compare/v1.1.4...v1.1.5) (2023-09-23)
+
+
+### Documentation
+
+* simulated "docs" type commit ([0608691](https://github.com/shtaif/my-general-test-ground-project/commit/06086919eb7b88c63531b5449d3bf533d3656993))
+* simulated "docs" type commit ([d2df986](https://github.com/shtaif/my-general-test-ground-project/commit/d2df9863b1350531f3f3d6ad16f940b2e8c63738))
+
 ## [1.1.4](https://github.com/shtaif/my-general-test-ground-project/compare/v1.1.3...v1.1.4) (2023-09-23)
 
 
