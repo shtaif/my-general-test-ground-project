@@ -17,7 +17,7 @@
     [
       "@semantic-release/release-notes-generator",
       {
-        "preset": "angular",
+        "preset": "conventionalcommits",
         "types": [
           { "type": "feat", "hidden": false },
           { "type": "fix", "hidden": false },
