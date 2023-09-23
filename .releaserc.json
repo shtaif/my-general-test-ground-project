@@ -28,7 +28,7 @@
           { "type": "docs", "section": "Docs", "hidden": false },
           { "type": "build", "section": "Build", "hidden": false },
           { "type": "style", "section": "Styles", "hidden": true },
-          { "type": "ci", "section": "CI/CD", "hidden": true }
+          { "type": "ci", "section": "CI/CD", "hidden": true },
           { "type": "chore", "section": "Chores", "hidden": true }
         ]
       }
