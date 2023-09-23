@@ -1,4 +1,4 @@
-name: Release new version (debug)
+name: Release new version
 
 on:
   workflow_dispatch:
