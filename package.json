@@ -5,8 +5,5 @@
   "author": "Dor Shtaif",
   "license": "MIT",
   "private": false,
-  "main": "./src/index.js",
-  "devDependencies": {
-    "conventional-changelog-conventionalcommits": "^7.0.2"
-  }
+  "main": "./src/index.js"
 }
